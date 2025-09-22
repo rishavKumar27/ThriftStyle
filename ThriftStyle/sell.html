@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sell Your Item - ThriftStyle</title>
+  <link rel="stylesheet" href="style3.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Thrift<span>Style</span></div>
+    <input type="text" class="search" placeholder="Search for clothes..." />
+    <div class="icons">
+      <span>🤍</span>
+      <span>💬</span>
+      <span>🛒</span>
+      <span class="avatar">👩‍🦰</span>
+    </div>
+  </header>
+
+  <main class="sell-container">
+    <h2>Sell Your Item</h2>
+
+    <div class="upload-box">
+      <i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
+      <p>Upload Images<br><small>Click to upload or drag and drop</small></p>
+      <button class="choose-btn">Choose Files</button>
+    </div>
+
+    <form class="sell-form">
+      <div class="form-row">
+        <input type="text" placeholder="Item name" required />
+        <input type="number" placeholder="0.00" step="0.01" min="0" required />
+      </div>
+
+      <div class="form-row">
+        <select required>
+          <option disabled selected>Select category</option>
+          <option>Tops</option>
+          <option>Bottoms</option>
+          <option>Accessories</option>
+          <option>Shoes</option>
+          <option>Outerwear</option>
+        </select>
+
+        <select required>
+          <option disabled selected>Select size</option>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <select required>
+          <option disabled selected>Select condition</option>
+          <option>New</option>
+          <option>Like New</option>
+          <option>Good</option>
+          <option>Fair</option>
+        </select>
+        <textarea placeholder="Describe your item..." rows="3" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">List Item for Sale</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-col">
+      <h3>ThriftStyle</h3>
+      <p>Your marketplace for pre-loved fashion.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li>About Us</li>
+        <li>How It Works</li>
+        <li>FAQ</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>support@thriftstyle.com</p>
+      <p>1-800-THRIFT</p>
+    </div>
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+      <div class="socials">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a2e0faad45.js" crossorigin="anonymous"></script>
+</body>
+</html>
